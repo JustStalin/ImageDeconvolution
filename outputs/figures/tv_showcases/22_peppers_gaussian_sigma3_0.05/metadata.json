@@ -1,0 +1,28 @@
+﻿{
+  "case_id": "peppers_gaussian_sigma3_0.05",
+  "image_name": "peppers",
+  "kernel_id": "gaussian_sigma3",
+  "noise_sigma": 0.05,
+  "fixed_params": {
+    "wiener": 0.1,
+    "richardson_lucy": 16,
+    "tv_montalto": 0.02
+  },
+  "metrics": {
+    "wiener": {
+      "psnr": 21.91680241344814,
+      "ssim": 0.7122864996956703,
+      "mae": 0.06286805123090744
+    },
+    "richardson_lucy": {
+      "psnr": 22.111989475764574,
+      "ssim": 0.45565728892377216,
+      "mae": 0.05930081382393837
+    },
+    "tv_montalto": {
+      "psnr": 24.728524334921143,
+      "ssim": 0.7636047800086767,
+      "mae": 0.035299208015203476
+    }
+  }
+}

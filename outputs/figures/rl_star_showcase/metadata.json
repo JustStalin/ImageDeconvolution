@@ -1,0 +1,37 @@
+﻿{
+  "image_id": "pleiades",
+  "image_name": "The Pleiades Star Cluster",
+  "image_page": "https://commons.wikimedia.org/wiki/File:The_Pleiades_Star_Cluster_(48824393137).jpg",
+  "crop_box": [
+    0.18,
+    0.08,
+    0.5,
+    0.38
+  ],
+  "psf_id": "sca_mild",
+  "psf_description": "SCA optic blur, mild",
+  "noise_sigma": 0.005,
+  "parameters": {
+    "wiener": 0.005,
+    "richardson_lucy": 80,
+    "tv_montalto": 0.001
+  },
+  "metrics": {
+    "wiener": {
+      "psnr": 24.721781772099316,
+      "ssim": 0.5974356738315793,
+      "mae": 0.03467865288257599
+    },
+    "richardson_lucy": {
+      "psnr": 24.99015735158374,
+      "ssim": 0.6172341577544548,
+      "mae": 0.03124469704926014
+    },
+    "tv_montalto": {
+      "psnr": 24.75653424324372,
+      "ssim": 0.58487707053601,
+      "mae": 0.02865421026945114
+    }
+  },
+  "note": "Specially tuned RL showcase: bright stars, weak noise, 80 RL iterations."
+}

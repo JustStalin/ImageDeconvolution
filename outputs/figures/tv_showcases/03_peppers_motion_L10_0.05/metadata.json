@@ -1,0 +1,28 @@
+﻿{
+  "case_id": "peppers_motion_L10_0.05",
+  "image_name": "peppers",
+  "kernel_id": "motion_L10",
+  "noise_sigma": 0.05,
+  "fixed_params": {
+    "wiener": 0.1,
+    "richardson_lucy": 16,
+    "tv_montalto": 0.02
+  },
+  "metrics": {
+    "wiener": {
+      "psnr": 21.614224016532802,
+      "ssim": 0.5177889919620966,
+      "mae": 0.06595855951309204
+    },
+    "richardson_lucy": {
+      "psnr": 20.287279576202355,
+      "ssim": 0.3725361566273664,
+      "mae": 0.07530873268842697
+    },
+    "tv_montalto": {
+      "psnr": 26.489408835310883,
+      "ssim": 0.8100214539631188,
+      "mae": 0.029862476512789726
+    }
+  }
+}

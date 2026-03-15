@@ -1,0 +1,28 @@
+﻿{
+  "case_id": "mandrill_disk_R5_0.10",
+  "image_name": "mandrill",
+  "kernel_id": "disk_R5",
+  "noise_sigma": 0.1,
+  "fixed_params": {
+    "wiener": 0.2,
+    "richardson_lucy": 12,
+    "tv_montalto": 0.04
+  },
+  "metrics": {
+    "wiener": {
+      "psnr": 18.447719942849567,
+      "ssim": 0.33970810516981115,
+      "mae": 0.10067854821681976
+    },
+    "richardson_lucy": {
+      "psnr": 17.40771228226649,
+      "ssim": 0.16818007967957999,
+      "mae": 0.10684268921613693
+    },
+    "tv_montalto": {
+      "psnr": 21.93476396835214,
+      "ssim": 0.36639991409641165,
+      "mae": 0.059557586908340454
+    }
+  }
+}

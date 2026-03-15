@@ -1,0 +1,16 @@
+{
+  "case_id": "triple_003_mandrill_gauss_iso_mild_sigma_0.10",
+  "image_id": "4.2.03",
+  "image_name": "mandrill",
+  "image_url": "https://sipi.usc.edu/database/misc/4.2.03.tiff",
+  "image_page": "https://sipi.usc.edu/database/database.php?volume=misc",
+  "psf_id": "gauss_iso_mild",
+  "psf_type": "gauss",
+  "psf_description": "Gaussian isotropic, mild blur",
+  "psf_params": {
+    "theta": 0.0,
+    "sigma_x": 2.2,
+    "sigma_y": 2.2
+  },
+  "noise_sigma": 0.1
+}

@@ -1,0 +1,10 @@
+﻿method,noise_sigma,best_param
+richardson_lucy,0.01,30.0
+richardson_lucy,0.05,16.0
+richardson_lucy,0.1,12.0
+tv_montalto,0.01,0.005
+tv_montalto,0.05,0.02
+tv_montalto,0.1,0.04
+wiener,0.01,0.01
+wiener,0.05,0.1
+wiener,0.1,0.2

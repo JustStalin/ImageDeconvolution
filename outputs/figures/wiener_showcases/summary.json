@@ -1,0 +1,66 @@
+﻿{
+  "num_wiener_wins": 6,
+  "best_cases": [
+    {
+      "case_id": "mandrill_disk_R5_0.01",
+      "image_name": "mandrill",
+      "kernel_id": "disk_R5",
+      "noise_sigma": 0.01,
+      "best_method": "wiener",
+      "best_ssim": 0.5659618204278349,
+      "margin": 0.03641962440863222,
+      "ranking": "wiener:0.5660 > richardson_lucy:0.5295 > tv_montalto:0.4507"
+    },
+    {
+      "case_id": "mandrill_gaussian_sigma3_0.01",
+      "image_name": "mandrill",
+      "kernel_id": "gaussian_sigma3",
+      "noise_sigma": 0.01,
+      "best_method": "wiener",
+      "best_ssim": 0.5026195059392,
+      "margin": 0.02038545702910305,
+      "ranking": "wiener:0.5026 > richardson_lucy:0.4822 > tv_montalto:0.4297"
+    },
+    {
+      "case_id": "mandrill_gaussian_sigma3_0.05",
+      "image_name": "mandrill",
+      "kernel_id": "gaussian_sigma3",
+      "noise_sigma": 0.05,
+      "best_method": "wiener",
+      "best_ssim": 0.4001583806681673,
+      "margin": 0.018383357433605585,
+      "ranking": "wiener:0.4002 > tv_montalto:0.3818 > richardson_lucy:0.3098"
+    },
+    {
+      "case_id": "sailboat_gaussian_sigma3_0.01",
+      "image_name": "sailboat",
+      "kernel_id": "gaussian_sigma3",
+      "noise_sigma": 0.01,
+      "best_method": "wiener",
+      "best_ssim": 0.6975925572388486,
+      "margin": 0.015482962158750557,
+      "ranking": "wiener:0.6976 > tv_montalto:0.6821 > richardson_lucy:0.6679"
+    },
+    {
+      "case_id": "mandrill_disk_R5_0.05",
+      "image_name": "mandrill",
+      "kernel_id": "disk_R5",
+      "noise_sigma": 0.05,
+      "best_method": "wiener",
+      "best_ssim": 0.39979509526207135,
+      "margin": 0.007709920273869131,
+      "ranking": "wiener:0.3998 > tv_montalto:0.3921 > richardson_lucy:0.3091"
+    },
+    {
+      "case_id": "mandrill_gaussian_sigma1_0.05",
+      "image_name": "mandrill",
+      "kernel_id": "gaussian_sigma1",
+      "noise_sigma": 0.05,
+      "best_method": "wiener",
+      "best_ssim": 0.6116979173980355,
+      "margin": 0.0014734786583348036,
+      "ranking": "wiener:0.6117 > tv_montalto:0.6102 > richardson_lucy:0.4523"
+    }
+  ],
+  "output_dir": "C:\\Users\\5g9dh\\OneDrive\\Рабочий стол\\Alone\\PythonStart\\torch\\shit\\codex\\outputs\\figures\\wiener_showcases"
+}

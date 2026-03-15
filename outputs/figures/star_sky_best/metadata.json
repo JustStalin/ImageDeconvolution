@@ -1,0 +1,31 @@
+﻿{
+  "image_id": "stars_constellations",
+  "image_page": "https://commons.wikimedia.org/wiki/File:Stars_constellations.jpg",
+  "crop_name": "dense_points",
+  "crop_box": [
+    0.12,
+    0.12,
+    0.42,
+    0.42
+  ],
+  "psf_id": "gauss_iso_mild",
+  "noise_sigma": 0.01,
+  "best_method": "tv_montalto",
+  "metrics": {
+    "wiener": {
+      "psnr": 35.20254006666714,
+      "ssim": 0.8151996540966034,
+      "mae": 0.011804704554378986
+    },
+    "richardson_lucy": {
+      "psnr": 35.07580718732387,
+      "ssim": 0.8013694403429031,
+      "mae": 0.012103673070669174
+    },
+    "tv_montalto": {
+      "psnr": 37.143484280210096,
+      "ssim": 0.9219568848984242,
+      "mae": 0.005148605909198523
+    }
+  }
+}

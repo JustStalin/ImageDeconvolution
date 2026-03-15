@@ -1,0 +1,16 @@
+{
+  "case_id": "triple_004_mandrill_gauss_aniso_rot_sigma_0.01",
+  "image_id": "4.2.03",
+  "image_name": "mandrill",
+  "image_url": "https://sipi.usc.edu/database/misc/4.2.03.tiff",
+  "image_page": "https://sipi.usc.edu/database/database.php?volume=misc",
+  "psf_id": "gauss_aniso_rot",
+  "psf_type": "gauss",
+  "psf_description": "Gaussian anisotropic, rotated",
+  "psf_params": {
+    "theta": 0.5585053606381855,
+    "sigma_x": 5.0,
+    "sigma_y": 1.6
+  },
+  "noise_sigma": 0.01
+}

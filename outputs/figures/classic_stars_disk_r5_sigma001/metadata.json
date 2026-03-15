@@ -1,0 +1,32 @@
+﻿{
+  "image": "synthetic classic stars",
+  "kernel_id": "disk_R5",
+  "noise_sigma": 0.01,
+  "baseline_metrics": {
+    "psnr": 31.115310735360524,
+    "ssim": 0.7819531616068829,
+    "mae": 0.005729093216359615
+  },
+  "best_params": {
+    "wiener": 0.02,
+    "richardson_lucy": 20,
+    "tv_montalto": 0.001
+  },
+  "metrics": {
+    "wiener": {
+      "psnr": 31.802776796828862,
+      "ssim": 0.6377456730475426,
+      "mae": 0.008020749315619469
+    },
+    "richardson_lucy": {
+      "psnr": 33.6889789789639,
+      "ssim": 0.770680217740804,
+      "mae": 0.004905647598206997
+    },
+    "tv_montalto": {
+      "psnr": 32.537570925726044,
+      "ssim": 0.8330600410692096,
+      "mae": 0.005339969880878925
+    }
+  }
+}

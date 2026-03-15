@@ -1,0 +1,18 @@
+{
+  "case_id": "triple_009_mandrill_sca_mild_sigma_0.10",
+  "image_id": "4.2.03",
+  "image_name": "mandrill",
+  "image_url": "https://sipi.usc.edu/database/misc/4.2.03.tiff",
+  "image_page": "https://sipi.usc.edu/database/database.php?volume=misc",
+  "psf_id": "sca_mild",
+  "psf_type": "sca",
+  "psf_description": "SCA optic blur, mild",
+  "psf_params": {
+    "sphere_dpt": -0.9,
+    "cylinder_dpt": -0.35,
+    "angle_rad": 0.3490658503988659,
+    "pupil_diameter_mm": 4.0,
+    "am2px": 0.001
+  },
+  "noise_sigma": 0.1
+}

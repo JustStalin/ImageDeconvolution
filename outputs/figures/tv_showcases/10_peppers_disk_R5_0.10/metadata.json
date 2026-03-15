@@ -1,0 +1,28 @@
+﻿{
+  "case_id": "peppers_disk_R5_0.10",
+  "image_name": "peppers",
+  "kernel_id": "disk_R5",
+  "noise_sigma": 0.1,
+  "fixed_params": {
+    "wiener": 0.2,
+    "richardson_lucy": 12,
+    "tv_montalto": 0.04
+  },
+  "metrics": {
+    "wiener": {
+      "psnr": 18.955627010692684,
+      "ssim": 0.573293209568976,
+      "mae": 0.09424927830696106
+    },
+    "richardson_lucy": {
+      "psnr": 18.011689975387732,
+      "ssim": 0.25964508527988955,
+      "mae": 0.09858596324920654
+    },
+    "tv_montalto": {
+      "psnr": 23.81004468653401,
+      "ssim": 0.7235821872893062,
+      "mae": 0.04063190147280693
+    }
+  }
+}

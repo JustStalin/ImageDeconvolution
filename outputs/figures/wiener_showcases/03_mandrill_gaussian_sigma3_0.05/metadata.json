@@ -1,0 +1,28 @@
+﻿{
+  "case_id": "mandrill_gaussian_sigma3_0.05",
+  "image_name": "mandrill",
+  "kernel_id": "gaussian_sigma3",
+  "noise_sigma": 0.05,
+  "fixed_params": {
+    "wiener": 0.1,
+    "richardson_lucy": 16,
+    "tv_montalto": 0.02
+  },
+  "metrics": {
+    "wiener": {
+      "psnr": 20.823445560279808,
+      "ssim": 0.4001583806681673,
+      "mae": 0.07326050847768784
+    },
+    "richardson_lucy": {
+      "psnr": 20.809777309159735,
+      "ssim": 0.3097895712943956,
+      "mae": 0.07097025215625763
+    },
+    "tv_montalto": {
+      "psnr": 22.112393736528524,
+      "ssim": 0.3817750232345617,
+      "mae": 0.05788185074925423
+    }
+  }
+}

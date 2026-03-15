@@ -1,0 +1,4 @@
+﻿target_method,case_id,image_id,image_name,image_page,psf_id,noise_sigma,param,ssim,ssim_margin
+wiener,internet_wiener_stars_constellations_sca_strong_sigma_0.10,stars_constellations,Stars constellations,https://commons.wikimedia.org/wiki/File:Stars_constellations.jpg,sca_strong,0.1,0.2,0.8469467649976015,0.009732079909682279
+richardson_lucy,internet_richardson_lucy_glass_facade_unsplash_sca_mild_sigma_0.01,glass_facade_unsplash,Regular glass facade,https://commons.wikimedia.org/wiki/File:Regular_glass_facade_(Unsplash).jpg,sca_mild,0.01,30.0,0.5857471769210324,0.0013877952365055624
+tv_montalto,internet_tv_montalto_landscape_unsplash_gauss_iso_mild_sigma_0.01,landscape_unsplash,Landscape,https://commons.wikimedia.org/wiki/File:Landscape_(Unsplash).jpg,gauss_iso_mild,0.01,0.005,0.9268452842650413,0.09827983368017612

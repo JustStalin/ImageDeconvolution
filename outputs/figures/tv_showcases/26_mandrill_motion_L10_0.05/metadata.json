@@ -1,0 +1,28 @@
+﻿{
+  "case_id": "mandrill_motion_L10_0.05",
+  "image_name": "mandrill",
+  "kernel_id": "motion_L10",
+  "noise_sigma": 0.05,
+  "fixed_params": {
+    "wiener": 0.1,
+    "richardson_lucy": 16,
+    "tv_montalto": 0.02
+  },
+  "metrics": {
+    "wiener": {
+      "psnr": 21.055807834648064,
+      "ssim": 0.4896017346804151,
+      "mae": 0.07101955264806747
+    },
+    "richardson_lucy": {
+      "psnr": 20.095838972783792,
+      "ssim": 0.3949115798503858,
+      "mae": 0.07824603468179703
+    },
+    "tv_montalto": {
+      "psnr": 23.305861749517405,
+      "ssim": 0.5114689721854375,
+      "mae": 0.05057834833860397
+    }
+  }
+}

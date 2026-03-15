@@ -1,0 +1,7 @@
+﻿case_id,image_name,kernel_id,noise_sigma,best_method,best_ssim,margin,ranking
+mandrill_disk_R5_0.01,mandrill,disk_R5,0.01,wiener,0.5659618204278349,0.03641962440863222,wiener:0.5660 > richardson_lucy:0.5295 > tv_montalto:0.4507
+mandrill_gaussian_sigma3_0.01,mandrill,gaussian_sigma3,0.01,wiener,0.5026195059392,0.02038545702910305,wiener:0.5026 > richardson_lucy:0.4822 > tv_montalto:0.4297
+mandrill_gaussian_sigma3_0.05,mandrill,gaussian_sigma3,0.05,wiener,0.4001583806681673,0.018383357433605585,wiener:0.4002 > tv_montalto:0.3818 > richardson_lucy:0.3098
+sailboat_gaussian_sigma3_0.01,sailboat,gaussian_sigma3,0.01,wiener,0.6975925572388486,0.015482962158750557,wiener:0.6976 > tv_montalto:0.6821 > richardson_lucy:0.6679
+mandrill_disk_R5_0.05,mandrill,disk_R5,0.05,wiener,0.39979509526207135,0.007709920273869131,wiener:0.3998 > tv_montalto:0.3921 > richardson_lucy:0.3091
+mandrill_gaussian_sigma1_0.05,mandrill,gaussian_sigma1,0.05,wiener,0.6116979173980355,0.0014734786583348036,wiener:0.6117 > tv_montalto:0.6102 > richardson_lucy:0.4523

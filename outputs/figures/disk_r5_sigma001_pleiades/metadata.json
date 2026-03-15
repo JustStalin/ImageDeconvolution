@@ -1,0 +1,37 @@
+﻿{
+  "image_id": "pleiades",
+  "image_name": "The Pleiades Star Cluster",
+  "image_page": "https://commons.wikimedia.org/wiki/File:The_Pleiades_Star_Cluster_(48824393137).jpg",
+  "crop_name": "bright_stars",
+  "crop_box": [
+    0.22,
+    0.12,
+    0.7,
+    0.52
+  ],
+  "kernel_id": "disk_R5",
+  "noise_sigma": 0.01,
+  "parameters": {
+    "wiener": 0.01,
+    "richardson_lucy": 30,
+    "tv_montalto": 0.005
+  },
+  "metrics": {
+    "wiener": {
+      "psnr": 25.510769068655,
+      "ssim": 0.5940297405204624,
+      "mae": 0.035877685993909836
+    },
+    "richardson_lucy": {
+      "psnr": 26.01951589143733,
+      "ssim": 0.6362534859326184,
+      "mae": 0.02969440072774887
+    },
+    "tv_montalto": {
+      "psnr": 25.395604657278376,
+      "ssim": 0.6022742095088586,
+      "mae": 0.02841002494096756
+    }
+  },
+  "best_method": "richardson_lucy"
+}

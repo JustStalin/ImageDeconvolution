@@ -1,0 +1,13 @@
+﻿{
+  "kernels": [
+    "gaussian_sigma1",
+    "gaussian_sigma3",
+    "motion_L10",
+    "disk_R5"
+  ],
+  "num_images": 3,
+  "num_cases": 36,
+  "params_policy": "fixed_by_noise_from_global_study",
+  "figure_dir": "C:\\Users\\5g9dh\\OneDrive\\Рабочий стол\\Alone\\PythonStart\\torch\\shit\\codex\\outputs\\figures\\manual_kernels",
+  "table_dir": "C:\\Users\\5g9dh\\OneDrive\\Рабочий стол\\Alone\\PythonStart\\torch\\shit\\codex\\outputs\\tables\\manual_kernels"
+}

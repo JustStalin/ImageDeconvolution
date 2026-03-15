@@ -1,0 +1,28 @@
+﻿{
+  "case_id": "sailboat_gaussian_sigma3_0.01",
+  "image_name": "sailboat",
+  "kernel_id": "gaussian_sigma3",
+  "noise_sigma": 0.01,
+  "fixed_params": {
+    "wiener": 0.01,
+    "richardson_lucy": 30,
+    "tv_montalto": 0.005
+  },
+  "metrics": {
+    "wiener": {
+      "psnr": 22.75119728816707,
+      "ssim": 0.6975925572388486,
+      "mae": 0.04710327461361885
+    },
+    "richardson_lucy": {
+      "psnr": 22.510391305481484,
+      "ssim": 0.6679383203849792,
+      "mae": 0.04881468042731285
+    },
+    "tv_montalto": {
+      "psnr": 22.529811241371135,
+      "ssim": 0.682109595080098,
+      "mae": 0.04515770822763443
+    }
+  }
+}

@@ -1,0 +1,28 @@
+﻿{
+  "case_id": "sailboat_disk_R5_0.05",
+  "image_name": "sailboat",
+  "kernel_id": "disk_R5",
+  "noise_sigma": 0.05,
+  "fixed_params": {
+    "wiener": 0.1,
+    "richardson_lucy": 16,
+    "tv_montalto": 0.02
+  },
+  "metrics": {
+    "wiener": {
+      "psnr": 20.127893261054727,
+      "ssim": 0.5414061483454167,
+      "mae": 0.07586348056793213
+    },
+    "richardson_lucy": {
+      "psnr": 20.41056044425404,
+      "ssim": 0.41171866970438126,
+      "mae": 0.07143111526966095
+    },
+    "tv_montalto": {
+      "psnr": 21.893528595174484,
+      "ssim": 0.6310739778958673,
+      "mae": 0.0501544363796711
+    }
+  }
+}

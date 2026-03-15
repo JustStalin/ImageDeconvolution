@@ -1,0 +1,18 @@
+{
+  "case_id": "triple_035_peppers_sca_strong_sigma_0.05",
+  "image_id": "4.2.07",
+  "image_name": "peppers",
+  "image_url": "https://sipi.usc.edu/database/misc/4.2.07.tiff",
+  "image_page": "https://sipi.usc.edu/database/database.php?volume=misc",
+  "psf_id": "sca_strong",
+  "psf_type": "sca",
+  "psf_description": "SCA optic blur, strong",
+  "psf_params": {
+    "sphere_dpt": -1.8,
+    "cylinder_dpt": -1.0,
+    "angle_rad": 0.9599310885968813,
+    "pupil_diameter_mm": 5.0,
+    "am2px": 0.001
+  },
+  "noise_sigma": 0.05
+}

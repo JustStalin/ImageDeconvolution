@@ -1,0 +1,4 @@
+﻿method,ssim_wins,psnr_wins
+tv_montalto,29,30
+wiener,7,6
+richardson_lucy,0,0

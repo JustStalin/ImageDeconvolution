@@ -1,0 +1,28 @@
+﻿{
+  "case_id": "sailboat_motion_L10_0.05",
+  "image_name": "sailboat",
+  "kernel_id": "motion_L10",
+  "noise_sigma": 0.05,
+  "fixed_params": {
+    "wiener": 0.1,
+    "richardson_lucy": 16,
+    "tv_montalto": 0.02
+  },
+  "metrics": {
+    "wiener": {
+      "psnr": 20.594813813657467,
+      "ssim": 0.5231642053675635,
+      "mae": 0.07381846755743027
+    },
+    "richardson_lucy": {
+      "psnr": 19.91067007653259,
+      "ssim": 0.4213639805024188,
+      "mae": 0.0785723626613617
+    },
+    "tv_montalto": {
+      "psnr": 23.942975114321534,
+      "ssim": 0.7371689547017701,
+      "mae": 0.04073230177164078
+    }
+  }
+}
